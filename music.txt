@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            background-color: rgb(160, 115, 115);
+            height: 50px;
+            border-radius: 14px;
+           padding-top: 15px;
+            padding-left: 39px;
+            color:black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        li{
+            display: inline;
+            background-color: rgb(158, 114, 209);
+            padding: 4px;
+            border-radius: 10px;
+            margin: auto;
+            
+
+        }
+        .flex{
+            display: flex;
+            border: 3px solid rgb(35, 11, 75);
+    background-color: rgb(180, 129, 180);
+            justify-content: space-between;
+        }
+        ul li {
+            margin-right: 4px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <title>Task</title>
+</head>
+<body>
+    <h1>Music World</h1>
+    <ul>
+        <li>HOOME</li>
+        <li>ABOUT  US</li>
+        <li>CATEGORY</li>
+        <li>PRODUCTION</li>
+        <li>CONTACT UUS</li>
+        <li>LOGIN</li>
+        <li>SIGN UP</li>
+        <li>SIGN IN</li>
+        <li>PLAY LIST</li>
+    </ul>
+    <h2 style="background-color: rgb(87, 158, 158); color: rgb(250, 244, 244); padding-left: 35px;">Latest Album songs</h2>
+<div class="flex">
+<img src="A.jpg">
+<img src="A.jpg">
+<img src="A.jpg">
+<img src="A.jpg">
+</div>
+<h2 style="background-color: rgb(102, 87, 158); color: rgb(250, 244, 244); padding-left: 35px;">Latest Malayalam songs</h2>
+<div class="flex">
+    <img src="c.jpg">
+    <img src="c.jpg">
+    <img src="c.jpg">
+    <img src="c.jpg">
+    </div>
+    <h2 style="background-color: rgb(128, 36, 128); color: rgb(253, 249, 251); padding-left: 35px;">Trending bollywood songs</h2>
+<div class="flex">
+    <img src="v.jpg">
+    <img src="v.jpg">
+    <img src="v.jpg">
+    <img src="v.jpg">
+    </div>
+<div class="footer">
+    <p>Copyright @ 2024 All Right Reserved By: <i>Music World </i></p>
+</div>
+</body>
+</html>
